@@ -1,0 +1,49 @@
+nav {
+  background-color: rgb(102, 102, 102);
+  width: 100%; 
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+}
+
+.navbar a {
+  margin: 0;
+  color: white;
+  text-decoration: underline;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  color: rgb(71, 249, 255);
+}
+
+main {
+  height: 80vh;
+  padding-top: 40px; 
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
+.banner img {
+  max-width: 80%;
+  margin-left: 0;
+  margin-top: 5px;
+}
+
+body {
+  margin: 5px;
+  margin-bottom: 40px;
+  font-family: "NarrowNews", serif;
+}
+
+@font-face {
+  font-family: "NarrowNews"; 
+  src: url("clanot-narrownews.otf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
